@@ -21,3 +21,11 @@ The first player to score 100 or more points wins. A link to my live site is htt
 ## Known Bugs
 * You have to press the "start game" option or else the other  buttons will not work.
 * The app still does not yet show the score or the roll value(the app is still in development)
+## Technologies Used
+* LINUX ubuntu
+* Bootstrap
+* jQuery
+* Google chrome
+* JavaScript
+* CSS
+* Atom text editor
