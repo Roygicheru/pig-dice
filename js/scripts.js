@@ -55,3 +55,37 @@ $(document).ready(function() {
     $("#roll-user2").empty();
     $("current-score-user2").empty();
   });
+
+  $("button#rollA").click(function() {
+      console.log('yay');
+      user1.score = diceRoll();
+      console.log('yy');
+
+      $("#roll-user1").html(user1.score);
+      user1.firstRoll();
+      $("#current-score-user1").html(user1.roundScore);
+    });
+
+    $("button#rollB").click(function() {
+      user2.score = diceRoll();
+      $("#roll-user2").html(user1.score);
+      user2.firstRoll();
+      $("#current-score-user2").html(user1.roundScore);
+    });
+
+    $("button#rollA").click(function() {
+      user1.hold();
+      $("#total-score-user1").html(user1.totalScore);
+      $("#current-score-user1").val("");
+      $("#roll-user1").val("");
+      user1.winner();
+    });
+
+    $("button#rollB").click(function() {
+      user2.hold();
+      $("#total-score-user2").html(user1.totalScore)
+      $("#current-score-user2").val("");
+      $("#roll-user2").val("");
+      user2.winner();
+    });
+  });
