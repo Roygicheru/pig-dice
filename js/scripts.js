@@ -38,3 +38,20 @@ User.prototype.winner = function() {
     alert("Yaay, you've won!")
   }
 }
+
+
+//user interface portion.
+$(document).ready(function() {
+ $("button#start").click(function(event) {
+   user1 = new User(true);
+   user2 = new User(false);
+ });
+
+  $("#start").click(function(event) {
+    $("#total-score-user1").empty();
+    $("#roll-user1").empty();
+    $("#current-score-user1").empty();
+    $("#total-score-user2").empty();
+    $("#roll-user2").empty();
+    $("current-score-user2").empty();
+  });
