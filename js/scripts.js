@@ -57,10 +57,7 @@ $(document).ready(function() {
   });
 
   $("button#rollA").click(function() {
-      console.log('yay');
       user1.score = diceRoll();
-      console.log('yy');
-
       $("#roll-user1").html(user1.score);
       user1.firstRoll();
       $("#current-score-user1").html(user1.roundScore);
