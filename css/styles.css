@@ -3,3 +3,13 @@ body {
   background-image:url("../img/screenshot.jpg");
   font-family: 'Coiny', cursive;
 }
+
+h1 {
+  font-size: 120px;
+  color: #6495ED;
+}
+
+h2 {
+  font-size: 50px;
+  color: #00BFFF;
+}
