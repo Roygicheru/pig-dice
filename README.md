@@ -18,3 +18,6 @@ The first player to score 100 or more points wins. A link to my live site is htt
 * Google chrome and ready access to It's console
 * bootstrap installed and in your css folder
 * jQuery installed and in your js folder
+## Known Bugs
+* You have to press the "start game" option or else the other  buttons will not work.
+* The app still does not yet show the score or the roll value(the app is still in development)
