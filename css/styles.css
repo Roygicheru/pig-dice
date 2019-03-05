@@ -13,3 +13,38 @@ h2 {
   font-size: 50px;
   color: #00BFFF;
 }
+
+#kul {
+   font-size: 30px;
+   color: #1F90FF;
+   border: solid;
+   border-color: green;
+ }
+
+ #roll {
+   font-size: 30px;
+   color: #1F90FF;
+   border: solid;
+   border-color: green;
+ }
+
+ #hold {
+   font-size: 30px;
+   color: #1F90FF;
+   border: solid;
+   border-color: green;
+ }
+
+ #pie {
+   font-size: 30px;
+   color: #1F90FF;
+   border: solid;
+   border-color: green;
+ }
+
+ #start {
+   font-size: 30px;
+   color: #1F90FF;
+   border: solid;
+   border-color: green;
+ }
